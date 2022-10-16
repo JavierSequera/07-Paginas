@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:_07_Paginas.Views"
+             x:Class="_07_Paginas.Views.PaginaTabbed"
+             Title="PaginaTabbed">
+
+    
+    
+    <local:Pagina1 IconImageSource="Resources\Images\craneo.png"/>
+
+
+    <local:Pagina2 IconImageSource="Resources\Images\fantasma.png"/>
+
+
+    <local:Pagina3 IconImageSource="Resources\Images\fantasma.png"/>
+
+
+</TabbedPage>
