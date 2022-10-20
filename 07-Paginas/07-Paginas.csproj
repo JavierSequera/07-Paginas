@@ -49,6 +49,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Entidades\Entidades.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <Compile Update="Views\MenuFlyout\FlyoutPageNavigation.xaml.cs">
 	    <DependentUpon>FlyoutPageNavigation.xaml</DependentUpon>
 	  </Compile>
@@ -66,6 +70,9 @@
 	  </Compile>
 	  <Compile Update="Views\MenuFlyout\TodoListPage.xaml.cs">
 	    <DependentUpon>TodoListPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\Pagina4.xaml.cs">
+	    <DependentUpon>Pagina4.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -86,6 +93,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\MenuFlyout\TodoListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Pagina4.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Pagina5.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

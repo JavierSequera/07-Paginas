@@ -6,6 +6,6 @@ public partial class App : Application
 	{
 		InitializeComponent();
 
-		MainPage = new Views.MenuFlyout.FlyoutPageNavigation();
+		MainPage = new NavigationPage(new MainPage());
 	}
 }

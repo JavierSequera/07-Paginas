@@ -10,12 +10,30 @@
             VerticalOptions="Center">
 
             <Entry FontSize="20"
+                   x:Name="entryNombre"
+                   VerticalOptions="Center" 
+            HorizontalOptions="Center"
+                   />
+            <Entry FontSize="20"
+                   x:Name="entryApellido"
                    VerticalOptions="Center" 
             HorizontalOptions="Center"
                    />
             <Button 
                 Text="Pulsa para cambiar de página"
                 Clicked="OnCounterClicked"
+                VerticalOptions="Center" 
+            HorizontalOptions="Center"
+               />
+            <Button 
+                Text="Navegar a pagina 4"
+                Clicked="NavegarPag4"
+                VerticalOptions="Center" 
+            HorizontalOptions="Center"
+               />
+            <Button 
+                Text="Navegar a pagina 5"
+                Clicked="NavegarPag5"
                 VerticalOptions="Center" 
             HorizontalOptions="Center"
                />
